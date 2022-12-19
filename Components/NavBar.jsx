@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function NavBar({navLinks}) {
   return (
-    <div className='flex justify-between py-3 px-10 text-lg border-b-[0.1rem]'>
+    <div className='flex justify-between py-3 px-10 text-lg border-b-[0.1rem] fixed z-10'>
         <Image src={flutterImg} alt="flutter-cmr Icon cursor-pointer"/>
         <div className='flex justify-between items-center'>
             <ul className='flex'>

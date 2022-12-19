@@ -8,7 +8,7 @@ export default function Home() {
   const navLinks = ['Events', 'Forum', 'Articles', 'Podcasts', 'Jobs'];
 
   return (
-    <div className=''>
+    <div >
     <NavBar navLinks={navLinks} />
     <Banner />
     </div>
