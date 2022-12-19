@@ -18,12 +18,12 @@ function Banner() {
         </div>
         <div className="bg-bannersvg">
             <div className='flex items-center gap-2'>
-                <Image src={leftImage} className="h-96 w-36 object-cover rounded-full" />
+                <Image src={leftImage} className="full-rounded-image" />
                 <div className='flex flex-col'>
-                <Image src={topImage} className="h-96 w-36 object-cover"/>
-                <Image src={bottomImage} className="h-96 w-36 object-cover"/>
+                <Image src={topImage} className="full-rounded-image"/>
+                <Image src={bottomImage} className="full-rounded-image"/>
                 </div>
-                <Image src={rightImage} className="h-96 w-36 object-cover"/>
+                <Image src={rightImage} className="full-rounded-image"/>
             </div>
         </div>
     </div>

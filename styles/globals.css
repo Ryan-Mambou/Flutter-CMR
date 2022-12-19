@@ -9,3 +9,9 @@
       font-family: "Space Grotesk";
     }
   }
+
+  @layer components{
+    .full-rounded-image {
+      @apply h-96 w-36 object-cover rounded-full
+    }
+  }
