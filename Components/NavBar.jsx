@@ -10,7 +10,7 @@ function NavBar({navLinks}) {
         <div className='flex justify-between items-center'>
             <ul className='flex'>
                {navLinks.map((link, index) => (
-                <li key={index} className="px-2 cursor-pointer">{link}</li>
+                <li key={index} className="px-2 cursor-pointer hover:text-green-900">{link}</li>
                ))}
             </ul>
             <div className='cursor-pointer ml-2 bg-green-100 rounded-3xl p-2 flex justify-center items-center'>

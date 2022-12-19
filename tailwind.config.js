@@ -8,8 +8,11 @@ module.exports = {
     extend: {
       fontFamily: {
         spaceGrotesk: 'Space Grotesk'
-      }
+      },
+      backgroundImage: {
+        bannersvg: "url('/public/images/6.svg')"
     },
   },
   plugins: [],
+}
 }
