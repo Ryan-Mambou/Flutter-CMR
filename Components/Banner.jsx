@@ -10,7 +10,7 @@ import Stats from './Stats'
 function Banner() {
   return (
     <div className='px-10 flex gap-30'>
-        <Image src={backgroundSvg} className="absolute right-0"/>
+        <Image src={backgroundSvg} className="absolute right-0 -z-10"/>
         <div className="flex flex-col z-10">
         <div className='flex flex-col py-[14rem] gap-4'>
             <h1 className='font-bold text-6xl'>A community open to everyone</h1>
