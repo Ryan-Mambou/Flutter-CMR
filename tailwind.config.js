@@ -9,9 +9,9 @@ module.exports = {
       fontFamily: {
         spaceGrotesk: 'Space Grotesk'
       },
-      backgroundImage: {
-        bannersvg: "url('/public/images/6.svg')"
-    },
+    boxShadow: {
+      'shadowInset': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+    }
   },
   plugins: [],
 }
