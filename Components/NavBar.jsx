@@ -17,7 +17,7 @@ function NavBar({navLinks}) {
                 <Image src={loopImg} alt="loop-icon"/>
                 </div>
             <button className='bg-green-700 text-white rounded-md py-1 px-5 ml-5 cursor-pointer'>Login</button>
-            <button className='border-white border-2 text-green-900 hover:border-green-700 hover:bg-gray-100 rounded-md py-1 px-5 ml-2 cursor-pointer'>Sign up</button>
+            <button className='border-white border-2 text-green-900 hover:border-green-700 hover:bg-gray-100 rounded-md py-1 px-5 ml-2 cursor-pointer transition-all duration-150 ease-in'>Sign up</button>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 md:hidden text-xl">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />

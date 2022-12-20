@@ -9,6 +9,7 @@ import blogImg from '../public/images/pexels-dayvison-de-oliveira-silva-5696291.
 import blogImg2 from '../public/images/pexels-diva-plavalaguna-6150527.jpg'
 import blogImg3 from '../public/images/pexels-henri-mathieusaintlaurent-8348624.jpg'
 import blogImg4 from '../public/images/pexels-matheus-bertelli-3321796.jpg'
+import OtherBox from '../Components/OtherBox';
 
 export default function Home() {
   const navLinks = ['Events', 'Forum', 'Articles', 'Podcasts', 'Jobs'];
@@ -30,6 +31,12 @@ export default function Home() {
     </div>
     <div className='md:px-12 px-8 flex flex-col gap-4 items-start'>
       <Headers heading="Community events" paragraph="Find out about all the virtual and physical events organized by the different communities in each city. Attend events hosted by the global Flutter community and continue to learn more about Flutter."/>
+      <div className='grid grid-cols-6 grid-rows-2 gap-4'>
+        <div className="col-span-4"><OtherBox coverImage={blogImg2} heading="The heading" paragraph="Baby calm down!"/></div>
+        <div className="col-span-2"><OtherBox coverImage={blogImg2} heading="The heading" paragraph="Baby calm down!"/></div>
+        <div className="col-span-2"><OtherBox coverImage={blogImg2} heading="The heading" paragraph="Baby calm down!"/></div>
+        <div className="col-span-4"><OtherBox coverImage={blogImg2} heading="The heading" paragraph="Baby calm down!"/></div>
+        </div>
     </div>
     </div>
   )
