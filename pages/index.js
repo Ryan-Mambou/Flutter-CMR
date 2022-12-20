@@ -17,7 +17,9 @@ export default function Home() {
     <Partners />
     <div className='md:px-12 px-8 flex flex-col gap-4 items-start'>
     <Headers heading="Discover popular articles" paragraph="These articles review the latest news about the Framework, but also feedback on our business. Discover the most popular articles shared by members of the community."/>
-    <div>
+    <div className='grid grid-cols-3 gap-2 bg-red-600 w-full'>
+      <MagicBox coverImage={blogImg} heading="Introducing flutter in focus"/>
+      <MagicBox coverImage={blogImg} heading="Introducing flutter in focus"/>
       <MagicBox coverImage={blogImg} heading="Introducing flutter in focus"/>
     </div>
     <button className='rounded text-white bg-green-800 py-2 px-5 cursor-pointer'>See all articles</button>
