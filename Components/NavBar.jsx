@@ -7,7 +7,7 @@ function NavBar({navLinks}) {
   return (
     <div className='flex justify-between items-center py-3 md:px-10 px-4 text-lg border-b-[0.05rem] fixed z-20 bg-white w-full'>
         <Image src={flutterImg} alt="flutter-cmr Icon cursor-pointer"/>
-        <div className='md:flex md:justify-between md:items-center hidden'>
+        <div className='lg:flex lg:justify-between lg:items-center hidden'>
             <ul className='flex'>
                {navLinks.map((link, index) => (
                 <li key={index} className="px-2 cursor-pointer hover:text-green-900">{link}</li>
@@ -19,7 +19,7 @@ function NavBar({navLinks}) {
             <button className='bg-green-700 text-white rounded-md py-1 px-5 ml-5 cursor-pointer'>Login</button>
             <button className='border-white border-2 text-green-900 hover:border-green-700 hover:bg-gray-100 rounded-md py-1 px-5 ml-2 cursor-pointer transition-all duration-150 ease-linear'>Sign up</button>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 md:hidden text-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 lg:hidden text-xl">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 </svg>
     </div>

@@ -4,7 +4,7 @@ import backgrounSvg from '../public/images/31.svg'
 
 function Newsletter() {
   return (
-    <div className='w-full mt-10 bg-green-800 flex flex-col items-center gap-3 py-5 mb-4 relative'>
+    <div className='w-full mt-10 bg-green-800 flex flex-col items-center gap-3 py-5 mb-4 relative px-4'>
         <Image src={backgrounSvg} alt="background" className='absolute top-0'/>
         <h2 className='text-white font-medium text-[2.6rem]'>Join our newsletter</h2>
         <span className='text-white text-lg'>Join our newsletter to receive tutorials, articles and podcasts on web design and programming.</span>
