@@ -52,7 +52,7 @@ export default function Home() {
         <button className='rounded-lg transition-all duration-150 ease-linear bg-green-200 hover:bg-white border-2 text-green-400 border-green-400 px-6 py-2'>See all events</button>
     </div>
     <Newsletter />
-    <div className="md:px-12 px-4">
+    <div className="md:px-8 px-4">
       <Footer/>
       <hr className='boder-2 my-4'/>
       <div className='mb-3 flex md:flex-row flex-col gap-3 justify-between items-start'>
