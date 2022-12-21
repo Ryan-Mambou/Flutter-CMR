@@ -18,4 +18,8 @@
     .badge{
       @apply relative before:content-[''] before:bg-green-700 before:rounded-full before:w-2 before:h-2 before:absolute before:left-2 before:top-[50%] before:-translate-y-[50%] bg-yellow-500 rounded-lg text-[0.88rem] pl-5 pr-2 py-[0.15rem]
     }
+
+    .blur-dark{
+      @apply w-full bg-gradient-to-r from-blue-500 to-transparent relative before:absolute before:content-[''] before:h-20 before:z-20
+    }
   }
