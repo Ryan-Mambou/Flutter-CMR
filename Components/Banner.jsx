@@ -9,7 +9,7 @@ import Stats from './Stats'
 
 function Banner() {
   return (
-    <div className='px-10 flex gap-30'>
+    <div className='md:px-10 px-4 flex flex-row gap-30'>
         <Image src={backgroundSvg} className="absolute right-0 -z-10"/>
         <div className="flex flex-col z-10">
         <div className='flex flex-col py-[14rem] gap-4'>
@@ -27,7 +27,7 @@ function Banner() {
                 <Stats stat="Followers on Twitter" number="151.4k"/>
             </div>
         </div>
-            <div className='md:flex md:items-center md:gap-2 z-10 hidden shrink-0'>
+            <div className='lg:flex lg:items-center lg:gap-2 z-10 hidden shrink-0'>
                 <Image src={leftImage} className="full-rounded-image transition-all duration-150 ease-in" />
                 <div className='flex flex-col w-36 gap-2'>
                 <Image src={topImage} className="full-rounded-image w-36 transition-all duration-150 ease-in"/>
