@@ -16,7 +16,7 @@ function Banner() {
             <h1 className='font-bold text-6xl animate-fadeDown'>A community open to everyone</h1>
             <p className='text-xl text-gray-600 animate-zoom'>Flutter Cameroon is an initiative to focus the efforts of many developers in and around Cameroon to learn, share and become productive using Flutter.</p>
             <div className='flex animate-fadeUp'>
-                <button className='bg-green-700 text-white rounded-md py-1 px-5 border 2 cursor-pointer'>Join the 237 community</button>
+                <button className='bg-green-700 text-white rounded-md py-1 px-5 border 2 cursor-pointer hover:opacity-[0.8]'>Join the 237 community</button>
                 <button className='border-2 text-green-900 border-green-700 hover:bg-gray-100 rounded-md py-1 px-5 ml-2 cursor-pointer'>Visit forum</button>
                 </div>
             </div>

@@ -38,7 +38,7 @@ export default function Home() {
       <div className="md:row-span-2"><MagicBox coverImage={blogImg3} heading="Flutter Apprentice Giveaway"/></div>
       <div className="md:row-span-1"><MagicBox coverImage={blogImg4} heading="How to Create Stateless Widgets - Flutter Widgets 101 Ep. 1"/></div>
     </div>
-    <button className='rounded text-white bg-green-800 py-2 px-5 cursor-pointer'>See all articles</button>
+    <button className='rounded text-white bg-green-800 hover:opacity-[0.6] py-2 px-5 cursor-pointer'>See all articles</button>
     </div>
 
     <div className='md:px-12 px-4 flex flex-col gap-3 items-start'>
