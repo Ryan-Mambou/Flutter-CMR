@@ -14,6 +14,12 @@ import communityImg3 from '../public/images/23.png'
 import communityImg4 from '../public/images/24.png'
 import OtherBox from '../Components/OtherBox';
 import Newsletter from '../Components/Newsletter';
+import Footer from '../Components/Footer';
+import Link from 'next/link';
+import Image from 'next/image';
+import twitterIcon from '../public/images/twitter.svg'
+import gitHubIcon from '../public/images/github.svg'
+import telegramIcon from '../public/images/telegram.svg'
 
 export default function Home() {
   const navLinks = ['Events', 'Forum', 'Articles', 'Podcasts', 'Jobs'];
@@ -46,6 +52,20 @@ export default function Home() {
         <button className='rounded-lg transition-all duration-150 ease-linear bg-green-200 hover:bg-white border-2 text-green-400 border-green-400 px-6 py-2'>See all events</button>
     </div>
     <Newsletter />
+    <div className="md:px-12 px-8">
+      <Footer/>
+      <hr className='boder-2 my-4'/>
+      <div className='mb-3 flex flex-row justify-between items-start'>
+        <span>© 2019 - 2022 Flutter Cameroon. All rigths reserved - Design by <span className='text-green-700'>MBAGNA Johan</span></span>
+        <div>
+          <ul className='flex flex-row gap-2'>
+            <li><Link href=""><Image src={twitterIcon} alt="icon"/></Link></li>
+            <li><Link href=""><Image src={gitHubIcon} alt="icon"/></Link></li>
+            <li><Link href=""><Image src={telegramIcon} alt="icon"/></Link></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     </div>
   )
 }
