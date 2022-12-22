@@ -24,10 +24,10 @@ function Banner() {
 
   return (
     <div className='md:px-10 sm:px-4 px-2 flex sm:flex-row flex-col-reverse gap:10 sm:gap-30'>
-        <Image src={backgroundSvg} className="absolute right-0 -z-10"/>
-        <div className="flex flex-col md:pt-[14rem] z-10 md:justify-between gap-5">
+        <Image src={backgroundSvg} alt="background" className="absolute right-0 -z-10"/>
+        <div className="flex flex-col sm:pt-[14rem] z-10 md:justify-between gap-5">
         <div className='flex flex-col gap-4'>
-            <h1 className='font-bold sm:text-6xl text-4xl animate-fadeDown'>A community open to everyone</h1>
+            <h1 className='font-bold sm:text-6xl text-4xl animate-fadeDown '>A community open to everyone</h1>
             <p className='sm:text-xl text-gray-600 text-[1.2rem] animate-zoom'>Flutter Cameroon is an initiative to focus the efforts of many developers in and around Cameroon to learn, share and become productive using Flutter.</p>
             <div className='flex sm:flex-row flex-col animate-fadeUp gap-2'>
                 <button className='bg-green-700 text-white rounded-md py-1 px-5 border 2 cursor-pointer hover:opacity-[0.8]'>Join the 237 community</button>

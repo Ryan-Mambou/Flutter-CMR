@@ -21,15 +21,22 @@ import twitterIcon from '../public/images/twitter.svg'
 import gitHubIcon from '../public/images/github.svg'
 import telegramIcon from '../public/images/telegram.svg'
 import MobileNav from '../Components/MobileNav';
+import { useState } from 'react';
 
 export default function Home() {
   const navLinks = ['Events', 'Forum', 'Articles', 'Podcasts', 'Jobs'];
+  const [showMobileNav , setShowMobileNav] = useState(false)
+
+  const toggleMobileNav = () => {
+    setShowMobileNav(!showMobileNav);
+    console.log('click')
+  }
 
 
   return (
-    <div className=''>
-    <MobileNav navLinks={navLinks}/>
-    <NavBar navLinks={navLinks} />
+    <div>
+    <MobileNav toggleMobileNav={toggleMobileNav} showMobileNav={showMobileNav} navLinks={navLinks}/>
+    <NavBar toggleMobileNav={toggleMobileNav} navLinks={navLinks} />
     <Banner />
     <Partners />
 
