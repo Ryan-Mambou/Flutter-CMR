@@ -24,8 +24,9 @@ import telegramIcon from '../public/images/telegram.svg'
 export default function Home() {
   const navLinks = ['Events', 'Forum', 'Articles', 'Podcasts', 'Jobs'];
 
+
   return (
-    <div >
+    <div className=''>
     <NavBar navLinks={navLinks} />
     <Banner />
     <Partners />
