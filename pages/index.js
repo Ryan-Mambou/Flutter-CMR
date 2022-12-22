@@ -20,6 +20,7 @@ import Image from 'next/image';
 import twitterIcon from '../public/images/twitter.svg'
 import gitHubIcon from '../public/images/github.svg'
 import telegramIcon from '../public/images/telegram.svg'
+import MobileNav from '../Components/MobileNav';
 
 export default function Home() {
   const navLinks = ['Events', 'Forum', 'Articles', 'Podcasts', 'Jobs'];
@@ -27,6 +28,7 @@ export default function Home() {
 
   return (
     <div className=''>
+    <MobileNav navLinks={navLinks}/>
     <NavBar navLinks={navLinks} />
     <Banner />
     <Partners />
