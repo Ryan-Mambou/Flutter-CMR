@@ -8,7 +8,7 @@ import aIcon from '../public/images/16.svg'
 
 function Partners() {
   return (
-    <div className='md:mx-10 mx-4 mt-10 bg-black rounded-xl px-4 pt-8 pb-4 flex md:flex-row flex-col md:gap-20 gap-5 items-center z-50'>
+    <div className='md:mx-10 sm:mx-4 mx-1 mt-10 bg-black rounded-xl pt-8 pb-4 px-4 flex md:flex-row flex-col md:gap-20 gap-5 items-center z-50'>
         <div className='flex flex-col gap-4 items-start'>
             <h3 className='text-white text-3xl font-bold'>Partners</h3>
             <span className='text-white'>A very big thank you to all our partners for their continued partnership.

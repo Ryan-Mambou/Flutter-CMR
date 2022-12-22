@@ -30,7 +30,7 @@ export default function Home() {
     <Banner />
     <Partners />
 
-    <div className='md:px-12 px-4 flex flex-col gap-4 items-start justify-center'>
+    <div className='md:px-12 sm:px-4 px-1 flex flex-col gap-4 items-start justify-center'>
     <Headers heading="Discover popular articles" paragraph="These articles review the latest news about the Framework, but also feedback on our business. Discover the most popular articles shared by members of the community."/>
     <div className='grid grid-col-1 lg:grid-cols-3 lg:grid-rows-2 gap-3 w-full'>
       <div className="md:row-span-2"><MagicBox coverImage={blogImg} heading="Introducing flutter in focus"/></div>
@@ -41,7 +41,7 @@ export default function Home() {
     <button className='rounded text-white bg-green-800 hover:opacity-[0.6] py-2 px-5 cursor-pointer'>See all articles</button>
     </div>
 
-    <div className='md:px-12 px-4 flex flex-col gap-3 items-start'>
+    <div className='md:px-12 sm:px-4 px-1 flex flex-col gap-3 items-start'>
       <Headers heading="Community events" paragraph="Find out about all the virtual and physical events organized by the different communities in each city. Attend events hosted by the global Flutter community and continue to learn more about Flutter."/>
       <div className='grid md:grid-cols-10 grid-rows-2 gap-8 md:gap-4'>
         <div className="md:col-span-6"><OtherBox coverImage={communityImg1} heading="Flutter at Google I/O 2022" paragraph="Dig into Flutter's announcements from I/O, including Flutter 3."/></div>
@@ -52,7 +52,7 @@ export default function Home() {
         <button className='rounded-lg transition-all duration-150 ease-linear bg-green-200 hover:bg-white border-2 text-green-400 border-green-400 px-6 py-2'>See all events</button>
     </div>
     <Newsletter />
-    <div className="md:px-8 px-4">
+    <div className="md:px-8 sm:px-4 px-1">
       <Footer/>
       <hr className='boder-2 my-4'/>
       <div className='mb-3 flex md:flex-row flex-col gap-3 justify-between items-start'>
