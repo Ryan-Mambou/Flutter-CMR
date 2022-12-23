@@ -29,16 +29,16 @@ export default function Home() {
 
   const toggleMobileNav = () => {
     setShowMobileNav(!showMobileNav);
-    console.log('click')
   }
-
 
   return (
     <div>
+      <div>
     <MobileNav toggleMobileNav={toggleMobileNav} showMobileNav={showMobileNav} navLinks={navLinks}/>
     <NavBar toggleMobileNav={toggleMobileNav} navLinks={navLinks} />
     <Banner />
     <Partners />
+    </div>
 
     <div className='md:px-12 sm:px-4 px-1 flex flex-col gap-4 items-start justify-center'>
     <Headers heading="Discover popular articles" paragraph="These articles review the latest news about the Framework, but also feedback on our business. Discover the most popular articles shared by members of the community."/>

@@ -23,8 +23,8 @@ function Banner() {
 
 
   return (
-    <div className='md:px-10 sm:px-4 px-2 flex sm:flex-row flex-col-reverse gap:10 sm:gap-30'>
-        <Image src={backgroundSvg} alt="background" className="absolute right-0 -z-10"/>
+    <div className='md:px-10 sm:px-4 px-2 flex sm:flex-row flex-col-reverse gap:10 sm:gap-30 relative h-full justify-between'>
+        <Image src={backgroundSvg} alt="background" className="absolute top-0 right-0 -z-50"/>
         <div className="flex flex-col sm:pt-[14rem] z-10 md:justify-between gap-5">
         <div className='flex flex-col gap-4'>
             <h1 className='font-bold sm:text-6xl text-4xl animate-fadeDown '>A community open to everyone</h1>
