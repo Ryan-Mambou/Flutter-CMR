@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Banner from '../Components/Banner';
-import Headers from '../Components/Headers';
-import NavBar from '../Components/NavBar';
-import Partners from '../Components/Partners';
-import MagicBox from '../Components/MagicBox';
+import Banner from '../components/Banner';
+import Headers from '../components/Headers';
+import NavBar from '../components/NavBar';
+import Partners from '../components/Partners';
+import MagicBox from '../components/MagicBox';
 import blogImg from '../public/images/pexels-dayvison-de-oliveira-silva-5696291.jpg'
 import blogImg2 from '../public/images/pexels-diva-plavalaguna-6150527.jpg'
 import blogImg3 from '../public/images/pexels-henri-mathieusaintlaurent-8348624.jpg'
@@ -12,15 +12,15 @@ import communityImg1 from '../public/images/21.png'
 import communityImg2 from '../public/images/22.png'
 import communityImg3 from '../public/images/23.png'
 import communityImg4 from '../public/images/24.png'
-import OtherBox from '../Components/OtherBox';
-import Newsletter from '../Components/Newsletter';
-import Footer from '../Components/Footer';
+import OtherBox from '../components/OtherBox';
+import Newsletter from '../components/Newsletter';
+import Footer from '../components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
 import twitterIcon from '../public/images/twitter.svg'
 import gitHubIcon from '../public/images/github.svg'
 import telegramIcon from '../public/images/telegram.svg'
-import MobileNav from '../Components/MobileNav';
+import MobileNav from '../components/MobileNav';
 import { useState } from 'react';
 
 export default function Home() {
