@@ -6,8 +6,8 @@ function MobileNav({navLinks, toggleMobileNav, showMobileNav}) {
     
   return (
     <div className={``}>
-        <div className={`w-full h-full bg-black bg-opacity-30 fixed z-30  flex-row justify-end transition-all duration-150 ease-in ${ showMobileNav ? 'flex' : 'hidden'}`}></div>
-        <div className={`w-80 h-full bg-white z-50 transition-all duration-200 ease-in absolute right-0 translate-x-full ${showMobileNav ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`w-full h-full bg-black bg-opacity-30 fixed z-30 transition-all duration-150 ease-in ${ showMobileNav ? 'flex' : 'hidden'}`}></div>
+        <div className={`w-80 h-full bg-white z-50 transition-all duration-200 ease-in fixed right-0 translate-x-full ${showMobileNav ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className='flex flex-row justify-end gap-2 items-center border-b-[0.05rem] py-4'>
         <div className='cursor-pointer ml-2 bg-green-100 rounded-3xl p-2 flex justify-center items-center'>
                 <Image src={loopImg} alt="loop-icon"/>

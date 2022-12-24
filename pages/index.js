@@ -32,9 +32,9 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className='overflow-hidden'>
+      <MobileNav toggleMobileNav={toggleMobileNav} showMobileNav={showMobileNav} navLinks={navLinks}/>
       <div>
-    <MobileNav toggleMobileNav={toggleMobileNav} showMobileNav={showMobileNav} navLinks={navLinks}/>
     <NavBar toggleMobileNav={toggleMobileNav} navLinks={navLinks} />
     <Banner />
     <Partners />
