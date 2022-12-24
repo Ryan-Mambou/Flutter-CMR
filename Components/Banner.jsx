@@ -6,7 +6,6 @@ import leftImage from '../public/images/1.jpeg'
 import rightImage from '../public/images/4.jpeg'
 import backgroundSvg from '../public/images/6.svg'
 import Stats from './Stats'
-import Slider from './Slider'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
